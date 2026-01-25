@@ -5,6 +5,22 @@
   box-sizing:border-box;
 }
 
+.headphon{
+  grid-area: logo-1;
+}
+.device{
+  grid-area: logo-2;
+}
+.location{
+  grid-area: logo-3;
+}
+.bolt{
+  grid-area: logo-4;
+}
+.resource{
+  grid-area: logo-5;
+}
+
 body{
   font-family:"Inter Tight", sans-serif;
   overflow-x:hidden;
@@ -177,12 +193,44 @@ body{
   padding-top: 80px;
 
 }
-
 .icon{
   width: 60px;
   height: 60px;
 }
-
+.why-all{
+  padding: 120px 200px;
+}
+.Why{
+  display: grid;
+  place-items: center;
+}
+.Why h3{
+  font-size: 48px;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+.y-div{
+  display: grid;
+  grid-template-areas: 
+  "logo-1 logo-2 logo-2"
+  "logo-1 logo-3 logo-3"
+  "logo-4 logo-4 logo-5";
+  gap: 30px;
+}
+.y-div div{
+   background-color: #351165;
+  border: #351165;
+  border-radius: 40px;
+  padding: 40px;
+   display: grid;
+  justify-items: start;
+  align-items: center;
+  color: #FFFFFF;
+}
+.y-div div h2{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 @media (max-width:576px){
 
     .hero-tech{
@@ -271,4 +319,33 @@ body{
   padding-top: 80px;
 
 }
+.why-all{
+  padding: 40px 20px 40px 20px;
+}
+.Why h3{
+  font-size: 32px;
+  padding-bottom: 16px;
+}
+.y-div {
+  gap: 24px;
+   grid-template-areas: 
+   "logo-1"
+   "logo-2"
+   "logo-3"
+   "logo-4"
+   "logo-5";
+   width: 400px;
+ 
+}
+.why-all{
+  justify-content: center;
+  align-items: center;
+}
+.cen{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 }
