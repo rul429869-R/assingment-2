@@ -231,6 +231,90 @@ body{
   margin-top: 16px;
   margin-bottom: 16px;
 }
+
+
+.vid-sec{
+  padding: 120px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vid-titel h3{
+  font-size: 48px;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+
+.vid{
+  display: flex;
+  gap: 30px;
+  
+
+}
+.vid div{
+  display: flex;
+  flex-direction: column;
+  background-color: #250D44;
+  border: 0px;
+  border-radius: 24px;
+  margin: 0px;
+  width: 380px;
+}
+
+.vid .vid-t{
+  padding: 24px;
+}
+.vid-t h1{
+  font-size: 24px;
+  color: #FFFFFF;
+  padding-bottom: 12px;
+}
+.vid-t .p{
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-bottom: 12px;
+  font-weight: 400;
+}
+.vid-t .i{
+  font-size: 16px;
+  font-weight: 600;
+  color: #00FF88;
+  display: flex;
+  gap: 6px;
+}
+.vid-titel{
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.host{
+  padding: 40px;
+  background-color: #250D44;
+  border: 0px;
+  border-radius: 24px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.host h1{
+  font-size: 32px;
+  padding-bottom: 16px;
+}
+.host p{
+  font-size: 16px;
+  padding-bottom: 16px;
+}
+.icon-1{
+  display: flex;
+  gap: 8px;
+}
+.icon-0{
+  border: 1px solid #533C72;
+  border-radius: 9999px;
+  padding: 12px;
+}
+
 @media (max-width:576px){
 
     .hero-tech{
@@ -347,5 +431,23 @@ body{
   justify-content: center;
   align-items: center;
 }
+.vid{
+  flex-direction: column;
+}
+.host{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vid-titel h3{
+  font-size: 32px;
+}
+.h{
+  font-size: 24px;
+}
+.vid-titel{
+  width: 400px;
+}
+
 
 }
