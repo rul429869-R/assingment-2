@@ -4,7 +4,10 @@
   padding:0;
   box-sizing:border-box;
 }
-
+.logo{
+  width: 410px;
+  height: 60px;
+}
 .headphon{
   grid-area: logo-1;
 }
@@ -314,6 +317,38 @@ body{
   border-radius: 9999px;
   padding: 12px;
 }
+.alex h1{
+  font-size: 32px;
+  color: #FFFFFF;
+}
+.alex p{
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.foot{
+  background-image: url(image/assets/footer-bg.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 120px;
+}
+.foot div{
+  display: grid;
+   grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.foot p{
+  display: flex;
+  color: #FFFFFF;
+  gap: 2.5px;
+}
 
 @media (max-width:576px){
 
@@ -447,6 +482,12 @@ body{
 }
 .vid-titel{
   width: 400px;
+}
+.foot div{
+   grid-template-columns: repeat(2, 2fr);
+   gap: 16px;
+
+
 }
 
 
